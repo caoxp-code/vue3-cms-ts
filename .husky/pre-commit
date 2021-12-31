@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+[ -n "$CI" ] && exit 0
+PATH="$NVM_DIR/versions/node/v16.13.1/bin:$PATH"
+yarn lint:pretty

@@ -1,0 +1,20 @@
+*.sh
+node_modules
+*.md
+*.woff
+*.ttf
+.vscode
+.idea
+dist
+/public
+/docs
+.husky
+.local
+/bin
+
+# src下文件
+src/assets
+src/**/*.css
+src/env.d.ts
+.**.{js,json}
+.**
